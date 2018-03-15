@@ -59,12 +59,12 @@ json_1_200000_1000_100 | 968371.50192 | 99153713(us)	 | 1008.53510
   
 **输入:** 
 
-名称 | 数据类型 | 描述 | 例子 | 备注
----|---|---|---|---
-type | 数字类型| 预留 |"type":0|必填   
-num | 数字类型|单次请求的样本条数，需要和input字段中样本条数保持一致|"num":1|必填
-model | 字符串类型|模型名称，需要和模型配置文件models.conf中的模型名保持一致|"model":"mblog_yellow"|必填 
-input|jsonArray|text: 文本内容<br>mid：微博id<br> pic_id：图片id| 见输入示例| 必填
+testParams | aveTime(us) | totalTime(us) | qps 
+---|---|---|---
+json_1_200000_1_100 | 17078.25000| 1914256 |52.23962 
+num | 数字类型|单次请求的样本条数，需要和input字段中样本条数保持一致|"num":1
+model | 字符串类型|模型名称，需要和模型配置文件models.conf中的模型名保持一致|"model":"mblog_yellow"
+input|jsonArray|text: 文本内容<br>mid：微博id<br> pic_id：图片id| 见输入示例
 
 ## 2.第二台内网机器10.39.12.47
 ### （1） 环境 ##
